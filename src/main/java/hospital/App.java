@@ -49,7 +49,7 @@ public class App extends Application {
     public static Connection connect() {
         String path = "jdbc:mysql://localhost:3306/hospital";
         String username = "root";
-        String password = "sJj95-JWhw96-dMM97-SV98-d99";
+        String password = "";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(path, username, password);
